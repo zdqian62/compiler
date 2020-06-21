@@ -1,0 +1,4 @@
+#!/bin/bash
+make clean
+make compiler
+java -cp $CLASSPATH:classes/ Micro $1 >$2
